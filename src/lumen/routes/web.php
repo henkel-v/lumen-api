@@ -22,4 +22,3 @@ $router->get('/loans/{id}', 'LoanController@get');
 $router->put('/loans/{id}', 'LoanController@update');
 $router->delete('/loans/{id}', 'LoanController@delete');
 $router->get('/loans', 'LoanController@index');
-

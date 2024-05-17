@@ -2,12 +2,13 @@
 
 namespace Tests;
 
+use App\Models\Loan;
 use Laravel\Lumen\Testing\DatabaseMigrations;
 use Laravel\Lumen\Testing\DatabaseTransactions;
 
 class LoanTest extends TestCase
 {
-    use DatabaseMigrations;
+//    use DatabaseMigrations;
 
     public function testCreateLoan()
     {
