@@ -12,8 +12,7 @@ This is a REST API for managing loans built with Lumen.
 
 ## Setup
 
-`Докер окружение можно также склонировать к себе, у меня как раз есть` [репозиторий](https://github.com/jibunnoeiko/Laravel-app-in-docker) `только заменить корень на ./src/lumen`
-
+`The docker environment can also be cloned to itself, I just have it` [repository](https://github.com/jibunnoeiko/Laravel-app-in-docker) `just replace the root with ./src/lumen`
 
 1. Clone the repository
     ```sh
