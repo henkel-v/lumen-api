@@ -5,8 +5,8 @@ REST API для управления займами.
 
 ## Установка
 ```sh
-git clone https://github.com/yourusername/loan-api.git
-cd loan-api
+git clone https://github.com/yourusername/lumen-api.git
+cd lumen-api
 composer install
 cp .env.example .env
 php artisan migrate
