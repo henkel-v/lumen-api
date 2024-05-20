@@ -1,8 +1,10 @@
 # Loan Management API
 
 This is a REST API for managing loans built with Lumen.
+--
+REST API available at:
 ```
-REST API available at: http://31.128.38.73/loans
+http://31.128.38.73/loans
 ```
 
 ## Endpoints
