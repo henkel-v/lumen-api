@@ -1,6 +1,9 @@
 # Loan Management API
 
 This is a REST API for managing loans built with Lumen.
+```
+REST API available at: http://31.128.38.73/loans
+```
 
 ## Endpoints
 
@@ -9,8 +12,6 @@ This is a REST API for managing loans built with Lumen.
 - `PUT /loans/{id}` - Update loan information by ID
 - `DELETE /loans/{id}` - Delete a loan by ID
 - `GET /loans` - Get a list of all loans with basic filters by creation date and amount
-
-REST API available at: http://31.128.38.73/loans
 
 ## Setup
 
