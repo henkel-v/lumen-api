@@ -32,12 +32,17 @@ http://31.128.38.73/loans
     docker-compose up -d
     ```
 
-4. Run the migrations
+4. Run the composer install
     ```sh
-    docker-compose exec php php artisan migrate
+    docker-compose run composer install
     ```
 
-5. Run the tests
+5. Run the migrations
     ```sh
-    docker-compose exec php vendor/bin/phpunit tests
+    docker-compose run artisan migrate
+    ```
+
+6. Run the tests
+    ```sh
+    docker-compose exec php ./vendor/bin/phpunit tests/LoanTest.php
     ```
