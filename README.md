@@ -10,9 +10,9 @@ This is a REST API for managing loans built with Lumen.
 - `DELETE /loans/{id}` - Delete a loan by ID
 - `GET /loans` - Get a list of all loans with basic filters by creation date and amount
 
-## Setup
+REST API available at: http://31.128.38.73/loans
 
-`The docker environment can also be cloned to itself, I just have it` [repository](https://github.com/jibunnoeiko/Laravel-app-in-docker) `just replace the root with ./src/lumen`
+## Setup
 
 1. Clone the repository
     ```sh
